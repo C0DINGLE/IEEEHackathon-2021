@@ -1,0 +1,180 @@
+name: donation_app
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  splashscreen: ^1.3.5
+  lottie: ^0.7.0+1
+
+  line_awesome_flutter: ^1.0.1
+  flutter_screenutil: ^1.0.2
+  geolocator: ^6.1.9
+  geocoding: ^1.0.5
+  geocoder: ^0.2.1
+  
+  rflutter_alert: ^1.1.0
+  flutter_svg: ^0.18.0
+  flutter_spinkit: "^4.1.2"
+  image_picker: "^0.6.7+12"
+  provider: ^4.3.2+2
+  intl: ^0.16.1
+  http: ^0.12.2
+  
+  # FlutterFire
+  firebase_core: "^0.5.2"
+  firebase_auth: "^0.18.3"
+  cloud_firestore: "^0.14.3"
+  firebase_storage: "^5.0.1"
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+
+  get_it: ^1.0.3+2
+  url_launcher: ^5.0.3
+
+  flutter_launcher_icons: ^0.8.0
+  flutter_launcher_name: ^0.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+  
+flutter_launcher_name:
+  name: "iAid"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/logo.png
+    - assets/images/launchLogo.png
+    - assets/images/logoText.png
+    - assets/images/books.png
+    - assets/images/clothes.png
+    - assets/images/food.png
+    - assets/images/furniture.png
+    - assets/images/toys.png
+    - assets/images/logoOnly.svg
+    - assets/images/logo.svg
+    - assets/images/accountSection.svg
+    - assets/images/noReviews.svg
+    - assets/images/help.svg
+    - assets/images/user11.png
+    - assets/images/emptyBox.svg
+    - assets/images/noData.svg
+    - assets/images/noImage.png
+    - assets/images/other.png
+    - assets/images/request.svg
+    - assets/images/lottie_file.json
+
+    # Categories SVGs
+    - assets/images/categorySVG/books.svg
+    - assets/images/categorySVG/clothes.svg
+    - assets/images/categorySVG/food.svg
+    - assets/images/categorySVG/furniture.svg
+    - assets/images/categorySVG/toys.svg
+    - assets/images/categorySVG/others.svg
+
+    # Dummy Donations Data
+    - assets/images/dummyData/books.jpg
+    - assets/images/dummyData/clothes.jpg
+    - assets/images/dummyData/food.jpg
+    - assets/images/dummyData/furniture.jpg
+    - assets/images/dummyData/toys.jpg
+
+    - assets/images/dummyData/reqBooks.jpg
+    - assets/images/dummyData/reqClothes.jpg
+    - assets/images/dummyData/reqFood.jpg
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Montserrat-light.ttf
+          weight: 300
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          weight: 400
+
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Roboto-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato/Lato-Regular.ttf
+        - asset: assets/fonts/Lato/Lato-Italic.ttf
+          weight: 700
+    
+    - family: RobotoMono
+      fonts:
+        - asset: assets/fonts/RobotoMono-SemiBoldItalic.ttf
+        - asset: assets/fonts/RobotoMono-Medium.ttf
+    
+    - family: Anton
+      fonts:
+        - asset: assets/fonts/Anton/Anton-Regular.ttf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

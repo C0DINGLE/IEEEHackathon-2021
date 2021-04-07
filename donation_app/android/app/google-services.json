@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "749261623295",
+    "firebase_url": "https://iaid-7b302.firebaseio.com",
+    "project_id": "iaid-7b302",
+    "storage_bucket": "iaid-7b302.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749261623295:android:6684493723bd480b7b61ca",
+        "android_client_info": {
+          "package_name": "com.iaid.donation_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749261623295-f0gpm4lm7vahrl4u6kkighubfv5jdmi4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAtvVYpV2_fgO0Z5sH2vJpud4tg11x1WI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749261623295-f0gpm4lm7vahrl4u6kkighubfv5jdmi4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
